@@ -54,6 +54,9 @@ li{
 	justify-content: space-between;
 	padding-right: 2rem;
 }
+.truncated-menu{
+	display: none;
+}
 header .flex{
 	justify-content: flex-end;
 }
@@ -134,3 +137,82 @@ footer img {
     margin-left: 2rem;
     margin-right: 1rem;
 }
+/*Tablet view*/
+@media only screen and (max-width: 1024px){
+	nav.container {
+    max-width: 100%;
+	}
+	header {
+    padding-top: 0;
+    height: 22rem;
+	}
+	.main-banner {
+    padding: 0.75rem 4rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+	}
+	.main-banner h1 {
+    font-size: 1.33rem;
+	}
+	
+}
+/*Mobile view*/
+@media only screen and (max-width: 560px){
+	header {
+    height: 17rem;
+    background-position: 20% center;
+	}
+	header div span {
+    display: none;
+	}
+	.menu ul {
+    display: none;
+	}
+	.main-banner {
+    width: 100%;
+    text-align: center;
+    padding: 0px 1rem;
+    margin: 9rem auto 0px;
+	}
+	.supporting {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 3rem;
+	}
+	.main-banner h1 {
+    font-size: 1rem;
+	}
+	.service {
+    height: auto;
+    font-size: 0.77rem;
+    margin: 0.77rem;
+	}
+	.supporting {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 3rem;
+	}
+	.info {
+    width: auto;
+	}
+}
+@media only screen and (max-width:700px){
+	.menu ul.truncated-menu{
+		display: block;
+	}
+	.menu ul{
+		display: none;
+	}
+	.info .title {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+	}
+	.info p {
+    font-size: 0.77rem;
+    padding: 1rem;
+	}
+}
+
