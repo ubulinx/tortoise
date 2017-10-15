@@ -122,3 +122,15 @@ img {
 .info p {
     padding: 1rem 0;
 }
+/*Footer section*/
+footer {
+    background-color: azure;
+    padding: 4rem 2rem;
+    display: flex;
+    align-items: center;
+}
+footer img {
+    height: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
