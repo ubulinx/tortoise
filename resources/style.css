@@ -73,4 +73,52 @@ h1 {
     font-weight: bold;
     margin: .67em 0;
 }
-
+/*Supporting section*/
+.supporting {
+    display: flex;
+    justify-content: center;
+}
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 3rem;
+    width: 5rem;
+    height: 8rem;
+}
+.service img.paper-icon {
+    width: 3.5rem;
+}
+div{
+	display: block;
+}
+.service img {
+    width: 5rem;
+    margin-bottom: 1rem;
+	display: block;
+}
+img {
+    border-style: none;
+}
+/*Info section*/
+.supporting {
+    display: flex;
+    justify-content: center;
+}
+.info {
+    width: 35%;
+    margin-right: 5%;
+    margin-bottom: 4rem;
+}
+.title {
+    background-color: cadetblue;
+    padding: 0.5rem 1.25rem;
+    font-weight: bold;
+    color: white;
+    max-width: 10rem;
+}
+.info p {
+    padding: 1rem 0;
+}
